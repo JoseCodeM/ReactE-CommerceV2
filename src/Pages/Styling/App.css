@@ -1,3 +1,6 @@
+body {
+  background-color: #ffd4a7;
+}
 
 .NavContainer {
   display: flex;
@@ -15,3 +18,8 @@ a:visited {
   color: black;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}

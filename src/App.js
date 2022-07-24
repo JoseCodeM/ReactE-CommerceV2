@@ -1,15 +1,15 @@
-import './Styling/App.css';
+import './Pages/Styling/App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import Products from './Pages/Products';
-// import  NavBar from "./components/NavBar"
 import Error from './Pages/Error';
+import Footer from './components/Footer';
 
 function App() {
   return (
   <Router>
-    <nav>
+        <nav>
             <ul className='NavContainer'>
                 <Link to="/">Home</Link>
                 <Link to="/products">Products</Link>
@@ -22,6 +22,7 @@ function App() {
       <Route path="/contact" element={<Contact />}/>
       <Route path='*' element={<Error />}/>
     </Routes>
+    <Footer />
   </Router>
   )
 }
