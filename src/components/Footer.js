@@ -8,9 +8,9 @@ function Footer() {
         <footer>
             <nav>
                 <ul className='flex-container'>
-                    <li><FaInstagramSquare size={42}/></li>
-                    <li><FaTwitterSquare size={42}/></li>
-                    <li><FaFacebookSquare size={42}/></li>
+                    <li><a href='https://instagram.com'><FaInstagramSquare size={42}/></a></li>
+                    <li><a href='https://twitter.com'><FaTwitterSquare size={42}/></a></li>
+                    <li><a href='https://facebook.com'><FaFacebookSquare size={42}/></a></li>
                 </ul>
             </nav>
         </footer>

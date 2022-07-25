@@ -10,13 +10,12 @@ const db = mysql.createPool({
     database: "Ecomm"
 })
 
-app.get('/api/products', (req, res) => {
-    db.query('SELECT * FROM products', (err,result) => {
+app.get('/products', (req, res) => {
+    db.query('SELECT * FROM Ecommv2.Products', (err,result) => {
         if (err) {
             throw err;
         }
-        res.status(200).json(result);
-        console.log(result);
+        res.send(result)
     })
 });
 

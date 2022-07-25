@@ -11,7 +11,7 @@ function Home() {
       </div>
       <div className="logo">
         <img src="/Images/TogemonUpgraded.png" alt="logo" />
-        <h1>We strive to bring you the best quality succulents!</h1>
+        <h1>Your 1 stop shop for all your succulent needs!</h1>
       </div>
       <div>
         <ImageSlider slides={SliderData} />
