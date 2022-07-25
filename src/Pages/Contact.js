@@ -3,6 +3,13 @@ import "./Styling/Contact.css";
 
 function Contact() {
   return (
+    <>
+     <div className="logo">
+        <img src="/Images/TogemonUpgraded.png" alt="logo" />
+        <h1>Contact us below for all your needs!</h1>
+    </div>
+
+
     <div className="contact-image">
             
             <div className="Form-area">
@@ -28,6 +35,7 @@ function Contact() {
 
             </div>
     </div>
+    </>
   )
 }
 
