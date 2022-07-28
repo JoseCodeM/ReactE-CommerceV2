@@ -1,8 +1,13 @@
 import React from 'react'
+import "./Styling/Products.css";
 
 function Products() {
   return (
-    <div></div>
+    <>
+      <div className='productLogo'>
+        <img src='/Images/3.png' alt="productLogo" />
+      </div>
+    </>
   )
 }
 

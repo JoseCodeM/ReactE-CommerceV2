@@ -18,8 +18,9 @@ a:visited {
   color: black;
 }
 
-.flex-container {
+.footer {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  margin-top: 20px;
 }

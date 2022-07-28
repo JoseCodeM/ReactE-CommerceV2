@@ -7,7 +7,7 @@ function Footer() {
     <>
         <footer>
             <nav>
-                <ul className='flex-container'>
+                <ul className='footer'>
                     <li><a href='https://instagram.com'><FaInstagramSquare size={42}/></a></li>
                     <li><a href='https://twitter.com'><FaTwitterSquare size={42}/></a></li>
                     <li><a href='https://facebook.com'><FaFacebookSquare size={42}/></a></li>
