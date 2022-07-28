@@ -1,12 +1,10 @@
 import React from 'react'
-import "./Styling/Products.css";
+import ProductLogo from '../components/ProductLogo';
 
 function Products() {
   return (
     <>
-      <div className='productLogo'>
-        <img src='/Images/3.png' alt="productLogo" />
-      </div>
+    <ProductLogo />
     </>
   )
 }

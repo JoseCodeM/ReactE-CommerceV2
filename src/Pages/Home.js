@@ -2,20 +2,20 @@ import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import { SliderData } from "../components/SliderData";
 import "./Styling/Home.css";
+import HomeLogo from "../components/HomeLogo"
+import AboutUs from "../components/AboutUs";
 
 function Home() {
   return (
     <>
-      <div className="logo">
-        {/* <h1>Welcome to Jose's Nursery!</h1> */}
-        <img src="/Images/TogemonUpgraded.png" alt="logo" />
-      </div>
 
-      <div>
+      <HomeLogo />
+
         <ImageSlider slides={SliderData} />
-      </div>
 
-      <div className="grid-container">
+        <AboutUs />
+
+      {/* <div className="grid-container">
         <div className="aboutUs grid-item1">
           <img src="Images/2.png" alt="aboutus" />
         </div>
@@ -29,7 +29,7 @@ function Home() {
           we've been in the business for years!
           </p>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

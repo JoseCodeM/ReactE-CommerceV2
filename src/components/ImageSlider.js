@@ -1,7 +1,16 @@
-import React from 'react'
-import { SliderData } from './SliderData'
-import { useState } from 'react'
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import React from 'react';
+import { SliderData } from './SliderData';
+import { useState } from 'react';
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
+import styled from 'styled-components';
+
+const Container = styled.div`
+height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
 const ImageSlider = ({slides}) => {
     const [current, setCurrent] = useState(0);
@@ -20,7 +29,7 @@ const ImageSlider = ({slides}) => {
     }
 
   return (
-    <section className='sliders'>
+    <Container>
         <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
         <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
         {SliderData.map((slide, index) => {
@@ -31,7 +40,7 @@ const ImageSlider = ({slides}) => {
                 </div>
             )    
         })}
-    </section>
+    </Container>
   )
 }
 
