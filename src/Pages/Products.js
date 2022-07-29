@@ -15,7 +15,7 @@ function Products() {
   const [product, setProduct] = useState([])
 
   const fetchProducts = async () => {
-    const responseBack = await axios.get("http://localhost:3001/api/products")
+    const responseBack = await axios.get("https://dbecomm.herokuapp.com/api/products")
 
     // console.log(responseBack.data)
     setProduct(responseBack.data)
