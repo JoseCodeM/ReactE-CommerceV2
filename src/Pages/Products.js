@@ -6,9 +6,10 @@ import axios from 'axios';
 
 const Container = styled.div`
 display:flex;
-border: 2px solid black;
 text-align: center;
-flex-wrap:wrap;
+flex-flow:row wrap;
+width:100%;
+margin-top:40px
 `
 
 function Products() {

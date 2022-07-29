@@ -31,15 +31,15 @@ function ContactForm() {
                 <Form>
                 <div className="details-area">
                     <label for="fname">First Name:</label>
-                    <input type="text" id="fname" placeholder="Enter First name..."/>
+                    <input type="text" id="fname" placeholder="Enter First name..." required/>
 <br/>
                     <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" placeholder="Enter Last name..."/>
+                    <input type="text" id="lname" placeholder="Enter Last name..." required/>
 
                     <label for="email">Email:</label>
-                    <input type="text" id="email" placeholder="Enter Email..."/>
+                    <input type="email" id="email" placeholder="Enter Email..." required/>
 
-                    <label for="msg">Message:</label>
+                    <label for="msg" required>Message:</label>
                     <textarea id="msg"></textarea>
                     
 
