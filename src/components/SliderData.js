@@ -1,3 +1,5 @@
+//Data for my images in an array
+//just copied an image url
 export const SliderData = [
     {
         image: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80'

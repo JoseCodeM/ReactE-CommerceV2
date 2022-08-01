@@ -6,6 +6,9 @@ import Products from './Pages/Products';
 import Error from './Pages/Error';
 import Footer from './components/Footer';
 
+//Standard routing library for React
+//used to define multiple routes
+
 function App() {
   return (
   <Router>

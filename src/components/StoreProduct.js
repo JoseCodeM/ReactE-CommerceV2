@@ -32,7 +32,7 @@ background: #ff451b;
     margin-bottom: 10px;
     margin-top:10px;
 `
-
+//function passing in our columns, that we got form our initial products page.
 const StoreProduct = ({id, title, description, price, image}) => (
 
     <ProductContainer>
