@@ -32,7 +32,7 @@ function ContactForm() {
                 <div className="details-area">
                     <label for="fname">First Name:</label>
                     <input type="text" id="fname" placeholder="Enter First name..." required/>
-<br/>
+                    <br/>
                     <label for="lname">Last Name:</label>
                     <input type="text" id="lname" placeholder="Enter Last name..." required/>
 
